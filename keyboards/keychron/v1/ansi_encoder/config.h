@@ -23,14 +23,3 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 45
-
-#define TAPPING_TERM_PER_KEY
-#define TAPPING_TERM 200
-
-#define QUICK_TAP_TERM 100
-// #define PERMISSIVE_HOLD
-//
-#define DUMMY_MOD_NEUTRALIZER_KEYCODE KC_RIGHT_CTRL
-
-// Neutralize left alt, left GUI, right GUI and left Control+Shift
-#define MODS_TO_NEUTRALIZE {MOD_BIT(KC_LEFT_ALT), MOD_BIT(KC_LEFT_GUI), MOD_BIT(KC_RIGHT_GUI), MOD_BIT(KC_LEFT_CTRL) | MOD_BIT(KC_LEFT_SHIFT)}
